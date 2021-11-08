@@ -14,4 +14,4 @@ let firstCustomer = new Customer('Mary');
 let newMessage: string = firstCustomer.announce();
 
 let heading = document.querySelector('h1');
-heading.textContent = newMessage;
+heading!.textContent = newMessage;

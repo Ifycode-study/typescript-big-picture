@@ -19,3 +19,17 @@ js folder and transpiling to ES2015 example (send transpiled ts into js folder a
 ````
 tsc --target ES2015 --outDir js basic.ts
 ````
+
+## Using configuration file (instead)
+
+Create a .tsconfig file with:
+
+````
+tsc --init
+````
+
+Edit config file as desired. After this transpile using this in commandline:
+
+````
+tsc
+````
